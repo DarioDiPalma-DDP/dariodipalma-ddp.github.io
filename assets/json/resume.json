@@ -1,157 +1,104 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "name": "Dario Di Palma",
+    "label": "PhD Student",
+    "image": "assets/img/profile_image.jpeg",
+    "email": "dario.dipalma@poliba.it",
+    "phone": "",
+    "url": "https://dariodipalma-ddp.github.io/",
+    "summary": "A passionate PhD student in AI from Italy, specializing in Large Language Models and Recommender Systems.",
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Politecnico di Bari",
+      "position": "PhD Student",
+      "url": "https://sisinflab.poliba.it/people/dario-di-palma/",
+      "startDate": "2023-01-01",
+      "endDate": "2026-01-01",
+      "summary": "I'm a passionate PhD student at the Polytechnic University of Bari, specializing in using Large Language Models to create awesome Recommender Systems. My mission? To build smart conversational agents that help users make informed choices!",
+      "highlights": ["LLMs", "Recommender Systems", "Multi-Objective Evaluation"]
+    },
+    {
+      "name": "Politecnico di Bari",
+      "position": "Teaching Assistant",
+      "url": "https://sisinflab.poliba.it/people/dario-di-palma/",
+      "startDate": "2022-09-01",
+      "endDate": "2026-01-01",
+      "summary": "Designed and delivered comprehensive Python notebooks and practical exercises to support theory lessons for the M.S. courses in Deep Learning, Information Retrieval, and Databases in Management and Computer Engineering. Assisted in teaching practice sessions, ensuring hands-on learning and application of theoretical concepts.",
+      "highlights": ["Deep Learning", "Information Retrieval", "Database"]
+    },
+    {
+      "name": "Universidad Autónoma de Madrid",
+      "position": "Research Internship",
+      "url": "https://www.uam.es/uam/inicio",
+      "startDate": "2022-04-01",
+      "endDate": "2022-10-01",
+      "summary": "Led the design and development of a cutting-edge Point-Of-Interest Recommender System tailored for the tourist sector, utilizing technologies such as Keras, NetworkX, and state-of-the-art Graph Neural Networks (GNNs), specifically Heterogeneous Graphs.",
+      "highlights": ["Graph Neural Networks", "Point-of-Interest Recommendation", "Madrid"]
+    },
+    {
+      "name": "Leonardo S.p.A",
+      "position": "Teacher",
+      "url": "https://www.leonardo.com/it/home",
+      "startDate": "2021-11-01",
+      "endDate": "2021-12-01",
+      "summary": "Delivered theoretical lectures on Lean Production and Smart Factory concepts, providing students with a solid understanding of these essential principles.",
+      "highlights": ["Lean Production", "Smart Factory"]
+    },
+    {
+      "name": "Politecnico di Bari",
+      "position": "Research Assistant",
+      "url": "https://swot.sisinflab.poliba.it/index.html",
+      "startDate": "2020-12-01",
+      "endDate": "2021-10-01",
+      "summary": "Contributed to research on Knowledge Representation and Reasoning, designed and implemented an innovative approach to using Knowledge Graphs for creating a StarCraft II Bot, and worked on Blockchain projects with Hyperledger Sawtooth, showcasing expertise in distributed ledger technology and its practical applications.",
+      "highlights": ["Knowledge Graph", "Reasoning", "Blockchain"]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Erasmus Student Network",
+      "location": "Bari, Italy",
+      "position": "ex-Treasurer and ex-Active Member",
+      "url": "https://www.esn.org/",
+      "startDate": "2019-11-01",
+      "endDate": "2022-02-01",
+      "summary": "An international association dedicated to welcoming and supporting foreign students at local universities. As a Board Member, I contributed to overseeing and managing the association's financial resources, conducting strategic economic planning and forecasting, preparing detailed budgets and accurate financial statements, and negotiating and finalizing partnership agreements to enhance organizational reach and impact."
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
+      "institution": "Politecnico di Bari",
+      "location": "Bari, Italy",
+      "url": "https://www.poliba.it/",
+      "area": "Computer Engineering",
+      "studyType": "M.S.",
+      "startDate": "2020-10-01",
+      "endDate": "2022-10-01",
+      "score": "110 cum laude/110"
+    },
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "institution": "Politecnico di Bari",
+      "location": "Bari, Italy",
+      "url": "https://www.poliba.it/",
+      "area": "Computer Engineering",
+      "studyType": "B.S.",
+      "startDate": "2017-09-01",
+      "endDate": "2020-09-01"
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Blockchain & Digital Assets",
+      "date": "2023-03-01",
+      "issuer": "MasterZ",
+      "url": "https://www.masterzblockchain.com/it/",
       "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Italian",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -159,42 +106,124 @@
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Intermediate",
+      "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Computer Science",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Large Language Models",
+        "Recommender Systems",
+        "Latent Space Representation",
+        "Multi-Objective Evaluation",
+        "Generative AI",
+        "Agentic Systems"
       ]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
+      "name": "Professor Tommaso Di Noia",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "Tommaso Di Noia is a Professor of Computer Science at Politecnico di Bari, Italy, specializing in Artificial Intelligence and Data Management. His early research focused on knowledge representation, automated reasoning, and knowledge-aware resource retrieval. He later applied these techniques to automated negotiations, mobile computing, and protocols, expanding to knowledge graphs and Linked Open Data for user modeling and recommender systems. His recent work explores theoretical, algorithmic, and experimental aspects of recommender systems, emphasizing security and privacy, including adversarial and federated machine learning. A recipient of prestigious awards like the IBM Ph.D. Fellowship and HP Labs Innovation Research Program, he has published extensively, earning multiple Best Paper Awards."
     },
     {
-      "name": "Professor John Doe",
+      "name": "Professor Fedelucio Narducci",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
+      "reference": "Fedelucio Narducci is a Full Professor at the Polytechnic University of Bari, specializing in recommender systems, conversational agents, and natural language processing. With a Ph.D. in Computer Science from the University of Bari Aldo Moro, his research spans e-health, user modeling, fairness, and explainability in AI. He has held research roles at Philips Research, the University of Milano Bicocca, and the University of Bari, focusing on diverse topics like emotion-aware systems and multilingual e-gov services. A prolific author with over 100 publications, he has co-authored a book on semantics in adaptive systems and served as an Associate Editor for leading journals, including Decision Support Systems and the International Journal of Human-Computer Studies."
+    },
+    {
+      "name": "Dr. Vito Walter Anelli",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Vito Walter Anelli, a researcher and academic at Politecnico di Bari, holds a Ph.D. in Electrical and Information Engineering. His work spans Machine Learning, Recommender Systems, Linked Open Data, and Semantic Web technologies. He has developed innovative algorithms for recommendation diversification, fairness, and hybrid systems leveraging knowledge graphs. His research also explores adversarial learning, cross-domain recommendations, and semantic representations."
+    },
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "RITA Copilot",
+      "summary": "RITA Copilot is a Road Information and Travel Assistant AI that integrates various services for voice recognition, natural language processing, and text-to-speech. It acts as a copilot to assist drivers by providing real-time traffic updates, suggesting optimal routes, locating nearby services, offering mechanical advice, and facilitating emergency assistance when needed.",
+      "highlights": ["Bosch Connected Experience", "LLMs", "Azure Cloud", "Eclipse KUKSA"],
+      "startDate": "2024-03-10",
+      "endDate": "2024-03-12",
+      "url": "https://github.com/DarioDiPalma-DDP/RITACopilot"
+    },
+    {
+      "name": "RecMOE",
+      "summary": "A library for computing Pareto fronts and evaluating them with Quality Indicators (QIs) for Recommender Systems. Officially released following the acceptance of the paper titled 'Broadening the Scope: Evaluating the Potential of Recommender Systems Beyond Prioritizing Accuracy.",
+      "highlights": ["Multi-Objective Evaluation", "Recommender Systems", "Pareto front", "Open-Source"],
+      "startDate": "2023-02-11",
+      "endDate": "2023-06-07",
+      "url": "https://github.com/DarioDiPalma-DDP/RecMOE"
+    },
+    {
+      "name": "POI recommendation through GNNs on heterogeneous graphs",
+      "summary": "This project, conducted during a research internship at Universidad Autónoma de Madrid, developed a hybrid recommendation system using Graph Neural Networks (GNNs) and heterogeneous graphs to improve Point of Interest recommendations. By addressing limitations in traditional methods, the system demonstrated enhanced accuracy and contextual awareness through richer data representation.",
+      "highlights": ["GNN", "Recommender Systems", "Point-Of-Interest"],
+      "startDate": "2022-04-01",
+      "endDate": "2022-10-01",
+      "url": "https://github.com/DarioDiPalma-DDP/Point-Of-Interest_recommendation-through-GNNs-on-heterogeneous-graphs"
+    },
+    {
+      "name": "Fairness in a Student Performance Data Set",
+      "summary": "The project uses Logistic Regression, Random Forest, and Support Vector Machine as base models to investigate Bias and Fairness in Machine Learning. The project aims to explore advanced techniques for enhancing fairness in machine learning models, focusing on novel approaches to achieve fairness in classification tasks.",
+      "highlights": ["Machine Learning", "Sklearn", "AIF360"],
+      "startDate": "2022-01-10",
+      "endDate": "2022-04-06",
+      "url": "https://deepnote.com/app/Oil-Spills-Research/Fairness-in-ML-2326a415-6fe8-43b8-9fd8-97dc2026c504"
+    },
+    {
+      "name": "Oil Spills Semantic Segmentation",
+      "summary": "Employing various Deep Convolutional Neural Networks on Synthetic Aperture Radar (SAR) images for the purpose of Oil Spill detection. Multiple models were trained, incorporating techniques such as data augmentation and transfer learning. Ultimately, the most effective model for segmentation, identified as DeepLabV3+ (ResNet101), emerged from these efforts.",
+      "highlights": ["Deep Learning", "PyTorch", "Transfer Learning", "Data Augmentation"],
+      "startDate": "2021-10-08",
+      "endDate": "2021-12-18",
+      "url": "https://docs.google.com/document/d/1mzKd-Mn00wxmEYI0ijapAGa04JkwuQfEDe1vLC2kX5E/edit?tab=t.0"
+    },
+    {
+      "name": "Restaurant Recommendation System",
+      "summary": "Leveraging the capabilities of Spark and MLlib, we conducted an array of data analysis tasks on the Restaurants and Consumers dataset curated by UCI ML. These tasks encompass a spectrum of analyses, ranging from fundamental statistical examinations to intricate business-economic analyses. The culmination of our efforts involves the application of Machine Learning techniques to construct a recommendation engine, utilizing the Collaborative Filtering algorithm, specifically the alternating least squares (ALS) algorithm.",
+      "highlights": ["Machine Learning", "Big Data Analysis"],
+      "startDate": "2021-06-21",
+      "endDate": "2021-07-10",
+      "url": "https://github.com/DarioDiPalma-DDP/Restaurant-Recommendation-system-and-Analysis"
+    },
+    {
+      "name": "Go-Interpreter-In-Python",
+      "summary": "A Go Interpreter written in Python using Lark a modern parsing library for Python.",
+      "highlights": ["Python", "Go", "Interpreter"],
+      "startDate": "2020-11-01",
+      "endDate": "2021-12-15",
+      "url": "https://github.com/DarioDiPalma-DDP/Restaurant-Recommendation-system-and-Analysis"
+    },
+    {
+      "name": "Swift-Interpreter-in-GO",
+      "summary": "A swift interpreter written in Go using the Pratt Parsing technique.",
+      "highlights": ["Go", "Swift", "Interpreter"],
+      "startDate": "2021-01-01",
+      "endDate": "2021-03-01",
+      "url": "https://github.com/DarioDiPalma-DDP/Swift-Interpreter-in-GO"
+    },
+    {
+      "name": "Remote Car Key Hack",
+      "summary": "I have adapted an external 2.0 sound card by incorporating a 433 MHz RF transmission and reception module to serve both as a receiver and a transmitter. This modification is aimed at capturing the remote signal of my car and replicating it to unlock the vehicle.",
+      "highlights": ["Hardware Hacking", "Electromagnetism"],
+      "startDate": "2017-01-01",
+      "endDate": "2017-05-01",
+      "url": "https://github.com/DarioDiPalma-DDP/Tesina_2017?tab=readme-ov-file#tesina-di-maturit%C3%A0-2017"
+    },
+    {
+      "name": "NCP The Game",
+      "summary": "NCP is an Android game where players guide a Pig through floating islands, avoiding deadly bombs to survive. With minimalistic graphics and quick rounds, players tap to control the character's jumps and navigate the challenging landscape.",
+      "highlights": ["Unity", "C#", "2D Sprites"],
+      "startDate": "2016-05-01",
+      "endDate": "2016-10-01",
+      "url": "https://github.com/DarioDiPalma-DDP/NCP_Game"
     }
   ]
 }
