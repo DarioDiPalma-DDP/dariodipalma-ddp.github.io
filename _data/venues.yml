@@ -1,9 +1,9 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"Preprint":
+  color: "b9bbbe"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"RecSys":
+  url: https://recsys.acm.org/
+  color: "#0044d0"
 
-"Vision":
+"IIR":
   color: "#009f36"
