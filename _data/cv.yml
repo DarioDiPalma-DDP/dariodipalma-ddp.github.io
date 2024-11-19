@@ -2,96 +2,180 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Dario Di Palma
+    - name: Label
+      value: PhD Student
+    - name: Email
+      value: dario.dipalma@poliba.it
+    - name: Website
+      value: <a href="https://dariodipalma-ddp.github.io/">Personal Website</a>
+    - name: Summary
+      value: A passionate PhD student in AI from Italy, specializing in Large Language Models and Recommender Systems.
+
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: PhD Student
+      institution: <a href="https://sisinflab.poliba.it/people/dario-di-palma/">Politecnico di Bari</a>
+      year: 2023-01-01 to 2026-01-01
+      description:
+        - Specializing in Large Language Models and Recommender Systems.
+        - Focused on building conversational agents for informed choices.
+    - title: Teaching Assistant
+      institution: <a href="https://sisinflab.poliba.it/people/dario-di-palma/">Politecnico di Bari</a>
+      year: 2022-09-01 to 2026-01-01
+      description:
+        - Designed Python notebooks and exercises for M.S. courses.
+        - Supported courses on Deep Learning, Information Retrieval, and Databases.
+    - title: Research Internship
+      institution: <a href="https://www.uam.es/uam/inicio">Universidad Autónoma de Madrid</a>
+      year: 2022-04-01 to 2022-10-01
+      description:
+        - Developed a Point-Of-Interest Recommender System using GNNs and heterogeneous graphs.
+    - title: Teacher
+      institution: <a href="https://www.leonardo.com/it/home">Leonardo S.p.A</a>
+      year: 2021-11-01 to 2021-12-01
+      description:
+        - Delivered lectures on Lean Production and Smart Factory concepts.
+    - title: Research Assistant
+      institution: <a href="https://swot.sisinflab.poliba.it/index.html">Politecnico di Bari</a>
+      year: 2020-12-01 to 2021-10-01
+      description:
+        - Researched Knowledge Representation, Knowledge Graphs, and Blockchain applications.
+
+- title: Volunteer Experience
+  type: time_table
+  contents:
+    - title: Treasurer and Active Member
+      organization: <a href="https://www.esn.org/">Erasmus Student Network</a>
+      year: 2019-11-01 to 2022-02-01
+      description:
+        - Managed financial resources and budgets.
+        - Negotiated partnerships to enhance organizational impact.
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.S. in Computer Engineering
+      institution: <a href="https://www.poliba.it/">Politecnico di Bari</a>
+      year: 2020-10-01 to 2022-10-01
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Graduated with 110 cum laude/110.
+    - title: B.S. in Computer Engineering
+      institution: <a href="https://www.poliba.it/">Politecnico di Bari</a>
+      year: 2017-09-01 to 2020-09-01
 
-- title: Experience
-  type: time_table
+- title: Certificates
+  type: list
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - <u>Blockchain & Digital Assets</u>, issued by <a href="https://www.masterzblockchain.com/it/">MasterZ</a> on 2023-03-01.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
+- title: Languages
+  type: map
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - language: Italian
+      fluency: Native speaker
+    - language: English
+      fluency: Fluent
+    - language: Spanish
+      fluency: Intermediate
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Research Topics
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Large Language Models
+        - Recommender Systems
+        - Latent Space Representation
+        - Multi-Objective Evaluation
+        - Generative AI
+        - Agentic Systems
+
+- title: References
+  type: list
+  contents:
+    - <b>Professor Tommaso Di Noia</b>: Specializes in AI, Data Management, Knowledge Graphs, and Recommender Systems. Recipient of multiple awards.
+    - <b>Professor Fedelucio Narducci</b>: Expert in Recommender Systems and Conversational Systems.
+    - <b>Dr. Vito Walter Anelli</b>: Researcher in Recommender Systems and Knowledge Graphs.
+
+- title: Projects
+  type: time_table
+  contents:
+    - title: RITA Copilot
+      year: 2024-03-10 to 2024-03-12
+      description:
+        - AI assistant for drivers integrating LLMs and cloud services.
+        - Hosted on <a href="https://github.com/DarioDiPalma-DDP/RITACopilot">GitHub</a>.
+    - title: RecMOE
+      year: 2023-02-11 to 2023-06-07
+      description:
+        - Library for Pareto front evaluation in Recommender Systems.
+        - Hosted on <a href="https://github.com/DarioDiPalma-DDP/RecMOE">GitHub</a>.
+    - title: POI recommendation through GNNs
+      year: 2022-04-01 to 2022-10-01
+      description:
+        - Improved recommendation accuracy using heterogeneous graphs.
+        - Hosted on <a href="https://github.com/DarioDiPalma-DDP/Point-Of-Interest_recommendation-through-GNNs-on-heterogeneous-graphs">GitHub</a>.
+    - title: Fairness in ML
+      year: 2022-01-10 to 2022-04-06
+      description:
+        - Investigated fairness techniques in classification tasks.
+    - title: Oil Spills Semantic Segmentation
+      year: 2021-10-08 to 2021-12-18
+      description:
+        - SAR image segmentation using DeepLabV3+.
+    - title: Restaurant Recommendation System
+      year: 2021-06-21 to 2021-07-10
+      description:
+        - Collaborative filtering with Spark and MLlib.
+    - title: Go-Interpreter-In-Python
+      year: 2020-11-01 to 2021-12-15
+      description:
+        - Built a Go interpreter using Python and Lark parsing library.
+        - Hosted on <a href="https://github.com/DarioDiPalma-DDP/Go-Interpreter-In-Python">GitHub</a>.
+    - title: Swift-Interpreter-in-GO
+      year: 2021-01-01 to 2021-03-01
+      description:
+        - Created a Swift interpreter using the Pratt Parsing technique.
+        - Hosted on <a href="https://github.com/DarioDiPalma-DDP/Swift-Interpreter-in-GO">GitHub</a>.
+    - title: Remote Car Key Hack
+      year: 2017-01-01 to 2017-05-01
+      description:
+        - Adapted an RF transmission module to replicate car remote signals.
+        - Hosted on <a href="https://github.com/DarioDiPalma-DDP/Tesina_2017?tab=readme-ov-file#tesina-di-maturit%C3%A0-2017">GitHub</a>.
+    - title: NCP The Game
+      year: 2016-05-01 to 2016-10-01
+      description:
+        - Developed an Android game with Unity and C# featuring 2D sprites.
+        - Hosted on <a href="https://github.com/DarioDiPalma-DDP/NCP_Game">GitHub</a>.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2023
       items:
-        - Description 1.
-        - Description 2.
+        - Received a full scholarship for PhD studies.
+    - year: 2022
+      items:
+        - Graduated cum laude from M.S. in Computer Engineering.
+    - year: 2021
+      items:
+        - Best Idea Award for "Bosch Ideathon".
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Research Domains
+      items:
+        - Large Language Models
+        - Recommender Systems
+        - Fairness and Bias in AI
+        - Explainability in AI
+        - Multimodal Foundation Models
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Traveling, Cooking, Fitness, Dancing, Surfskate.
+    - <u>Volunteer Work:</u> Supporting exchange students and fostering cultural integration.
