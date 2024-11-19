@@ -17,7 +17,9 @@
   contents:
     - title: PhD Student
       institution: <a href="https://sisinflab.poliba.it/people/dario-di-palma/">Politecnico di Bari</a>
-      year: 2023-01-01 to 2026-01-01
+      year: 2023-01-01 
+      to 
+      2026-01-01
       description:
         - Specializing in Large Language Models and Recommender Systems.
         - Focused on building conversational agents for informed choices.
@@ -95,9 +97,9 @@
 - title: References
   type: list
   contents:
-    - <b>Professor Tommaso Di Noia</b>: Specializes in AI, Data Management, Knowledge Graphs, and Recommender Systems. Recipient of multiple awards.
-    - <b>Professor Fedelucio Narducci</b>: Expert in Recommender Systems and Conversational Systems.
-    - <b>Dr. Vito Walter Anelli</b>: Researcher in Recommender Systems and Knowledge Graphs.
+    - Professor Tommaso Di Noia: Specializes in AI, Data Management, Knowledge Graphs, and Recommender Systems. Recipient of multiple awards.
+    - Professor Fedelucio Narducci: Expert in Recommender Systems and Conversational Systems.
+    - Dr. Vito Walter Anelli: Researcher in Recommender Systems and Knowledge Graphs.
 
 - title: Projects
   type: time_table
