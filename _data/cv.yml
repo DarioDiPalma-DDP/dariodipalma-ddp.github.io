@@ -17,9 +17,7 @@
   contents:
     - title: PhD Student
       institution: <a href="https://sisinflab.poliba.it/people/dario-di-palma/">Politecnico di Bari</a>
-      year: 2023-01-01 
-      to 
-      2026-01-01
+      year: 2023-01-01 to 2026-01-01
       description:
         - Specializing in Large Language Models and Recommender Systems.
         - Focused on building conversational agents for informed choices.
@@ -73,33 +71,33 @@
     - <u>Blockchain & Digital Assets</u>, issued by <a href="https://www.masterzblockchain.com/it/">MasterZ</a> on 2023-03-01.
 
 - title: Languages
-  type: map
+  type: list
   contents:
-    - language: Italian
-      fluency: Native speaker
-    - language: English
-      fluency: Fluent
-    - language: Spanish
-      fluency: Intermediate
+    - name: Italian
+      value: Native speaker
+    - name: English
+      value: Fluent
+    - name: Spanish
+      value: Intermediate
 
 - title: Academic Interests
-  type: nested_list
+  type: list
   contents:
-    - title: Research Topics
-      items:
-        - Large Language Models
-        - Recommender Systems
-        - Latent Space Representation
-        - Multi-Objective Evaluation
-        - Generative AI
-        - Agentic Systems
+    #- title: Research Topics
+    #  items:
+    - Large Language Models
+    - Recommender Systems
+    - Latent Space Representation
+    - Multi-Objective Evaluation
+    - Generative AI
+    - Agentic Systems
 
 - title: References
   type: list
   contents:
-    - Professor Tommaso Di Noia: Specializes in AI, Data Management, Knowledge Graphs, and Recommender Systems. Recipient of multiple awards.
-    - Professor Fedelucio Narducci: Expert in Recommender Systems and Conversational Systems.
-    - Dr. Vito Walter Anelli: Researcher in Recommender Systems and Knowledge Graphs.
+    - <b>Professor Tommaso Di Noia:</b> Specializes in AI, Data Management, Knowledge Graphs, and Recommender Systems. Recipient of multiple awards.
+    - <b>Professor Fedelucio Narducci:</b> Expert in Recommender Systems and Conversational Systems.
+    - <b>Dr. Vito Walter Anelli:</b> Researcher in Recommender Systems and Knowledge Graphs.
 
 - title: Projects
   type: time_table
@@ -165,19 +163,8 @@
       items:
         - Best Idea Award for "Bosch Ideathon".
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Research Domains
-      items:
-        - Large Language Models
-        - Recommender Systems
-        - Fairness and Bias in AI
-        - Explainability in AI
-        - Multimodal Foundation Models
-
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Traveling, Cooking, Fitness, Dancing, Surfskate.
-    - <u>Volunteer Work:</u> Supporting exchange students and fostering cultural integration.
+    - <b>Hobbies:</b> Traveling, Cooking, Fitness, Dancing, Surfskate.
+    - <b>Volunteer Work:</b> Supporting exchange students and fostering cultural integration.
