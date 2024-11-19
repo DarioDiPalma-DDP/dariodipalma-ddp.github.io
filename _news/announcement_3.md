@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+[Beyon Words](https://ceur-ws.org/Vol-3802/paper6.pdf) as just accepted as an original contribution to [IIR24](https://iir2024.uniud.it/)!🎉✨
