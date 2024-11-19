@@ -17,13 +17,13 @@
   contents:
     - title: PhD Student
       institution: <a href="https://sisinflab.poliba.it/people/dario-di-palma/">Politecnico di Bari</a>
-      year: 2023-01-01 to 2026-01-01
+      year: 2023.01 - 2026.01
       description:
         - Specializing in Large Language Models and Recommender Systems.
         - Focused on building conversational agents for informed choices.
     - title: Teaching Assistant
       institution: <a href="https://sisinflab.poliba.it/people/dario-di-palma/">Politecnico di Bari</a>
-      year: 2022-09-01 to 2026-01-01
+      year: 2022.09 - 2026.01
       description:
         - Designed Python notebooks and exercises for M.S. courses.
         - Supported courses on Deep Learning, Information Retrieval, and Databases.
