@@ -2,9 +2,9 @@
 layout: page
 title: Swift Interpreter in Go
 description: A Go-based interpreter for the Swift programming language, developed as part of a Master's thesis project.
-img: assets/img/Swift_Interpreter_Pipeline.png
-importance: 5
-category: work
+img: 
+importance: 2
+category: fun
 ---
 
 ## Project Overview
