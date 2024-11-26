@@ -1,6 +1,6 @@
 ---
 layout: page
-title: High School Thesis 2017 - Electromagnetic Waves and Everyday Applications
+title: High School Thesis 2017 Electromagnetic Waves and Everyday Applications
 description: A high school thesis project exploring the functioning of electromagnetic waves and their practical applications, including the development of a device to record and retransmit signals used for car locking mechanisms.
 img: assets/img/Project.jpg
 importance: 3
