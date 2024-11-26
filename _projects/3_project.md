@@ -1,6 +1,6 @@
 ---
 layout: page
-title: RecMOE: Multi-Objective Evaluation for Recommender Systems
+title: RecMOE - Multi-Objective Evaluation for Recommender Systems
 description: A library to compute Pareto fronts and evaluate them using Quality Indicators (QIs) for Recommender Systems.
 img: assets/img/RecMOE_Pipeline.png
 importance: 2
