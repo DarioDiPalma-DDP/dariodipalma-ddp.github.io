@@ -2,7 +2,7 @@
 layout: page
 title: Go Interpreter in Python
 description: A Python-based interpreter for the Go programming language, developed as part of a Master's thesis project.
-img: assets/img/Go_Interpreter_Pipeline.png
+img: 
 importance: 4
 category: work
 ---
