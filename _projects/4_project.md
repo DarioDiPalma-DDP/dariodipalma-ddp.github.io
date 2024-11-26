@@ -7,8 +7,6 @@ importance: 3
 category: work
 ---
 
-# Point-of-Interest Recommendation via Graph Neural Networks
-
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
     {% include figure.liquid path="assets/img/POI_GNN_Pipeline.png" title="POI Recommendation Pipeline" class="img-fluid rounded z-depth-1" %}
