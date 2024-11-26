@@ -1,13 +1,11 @@
 ---
 layout: page
 title: NCP The Game
-description: "A Unity-based Android game developed in January 2016 as a personal project."
+description: A Unity-based Android game developed in January 2016 as a personal project.
 img: assets/img/NCP_Game_Screenshot.png
-importance: 3
+importance: 4
 category: fun
 ---
-
-# NCP The Game
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
