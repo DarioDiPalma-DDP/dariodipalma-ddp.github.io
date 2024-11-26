@@ -2,7 +2,7 @@
 layout: page
 title: RITA Copilot
 description: An AI-driven Road Information and Travel Assistant.
-img: assets/img/rita_copilot_logo.jpg
+img: 
 importance: 1
 category: fun
 ---
@@ -39,12 +39,3 @@ Record an audio command using a microphone. The system processes the audio, conv
 
 ## Links
 - [GitHub Repository](https://github.com/DarioDiPalma-DDP/RITACopilot)
-
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/logo.jpeg" title="Project Logo" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-<div class="caption">
-  RITA Copilot Logo.
-</div>
