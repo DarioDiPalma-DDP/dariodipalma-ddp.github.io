@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Evaluating ChatGPT as a Recommender System
-description: Official source code and datasets for the paper "Evaluating ChatGPT as a Recommender System: A Rigorous Approach."
+description: Official source code and datasets for the paper - Evaluating ChatGPT as a Recommender System: A Rigorous Approach.
 img: assets/img/ChatGPT_EvalPipeline.png
 importance: 1
 category: work
