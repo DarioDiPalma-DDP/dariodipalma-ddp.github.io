@@ -7,8 +7,6 @@ importance: 1
 category: work
 ---
 
-# Evaluating ChatGPT as a Recommender System
-
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
     {% include figure.liquid path="assets/img/ChatGPT_EvalPipeline.png" title="ChatGPT Evaluation Pipeline" class="img-fluid rounded z-depth-1" %}
