@@ -1,81 +1,65 @@
 ---
 layout: page
-title: project 7
-description: with background image
-img: assets/img/4.jpg
-importance: 1
-category: work
-related_publications: true
+title: High School Thesis 2017: Electromagnetic Waves and Everyday Applications
+description: A high school thesis project exploring the functioning of electromagnetic waves and their practical applications, including the development of a device to record and retransmit signals used for car locking mechanisms.
+img: assets/img/Project.jpg
+importance: 6
+category: fun
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+# High School Thesis 2017: Electromagnetic Waves and Everyday Applications
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/Project.jpg" title="Electromagnetic Wave Recording Device" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
+<div class="caption">
+  The custom-built device designed to record and retransmit electromagnetic signals used in car locking systems.
+</div>
 
-{% endraw %}
+## Project Overview
+
+This high school thesis, completed in 2017, delves into the principles of electromagnetic waves and their utilization in daily life. A significant component of the project involved constructing a device capable of recording and retransmitting the signals employed in automobile locking and unlocking systems.
+
+## Features
+
+- **Electromagnetic Wave Analysis**: Investigated the properties and behaviors of electromagnetic waves.
+- **Practical Application**: Developed a device to capture and resend signals from car key fobs, demonstrating real-world applications of theoretical concepts.
+- **Hardware Integration**: Utilized RF transmitter and receiver modules operating at 433 MHz, integrated with an external 2.0 sound card for signal processing.
+
+## Device Components
+
+- **433 MHz RF Transmitter Module**: Used for sending recorded signals.
+- **433 MHz RF Receiver Module**: Employed to capture signals from car key fobs.
+- **External 2.0 Sound Card**: Facilitated the recording and playback of signals through the RF modules.
+
+## Demonstration
+
+1. **Signal Recording from Car Key**:
+
+   <div class="row">
+     <div class="col-sm mt-3 mt-md-0">
+       {% include figure.liquid path="assets/img/Signal_recording.gif" title="Signal Recording Process" class="img-fluid rounded z-depth-1" %}
+     </div>
+   </div>
+   <div class="caption">
+     Capturing the electromagnetic signal emitted by the car key fob.
+   </div>
+
+2. **Car Unlocking**:
+
+   <div class="row">
+     <div class="col-sm mt-3 mt-md-0">
+       {% include figure.liquid path="assets/img/Car_opening.gif" title="Car Unlocking Process" class="img-fluid rounded z-depth-1" %}
+     </div>
+   </div>
+   <div class="caption">
+     Using the recorded signal to unlock the car.
+   </div>
+
+## Links
+
+- [GitHub Repository](https://github.com/DarioDiPalma-DDP/Tesina_2017)
+
+For detailed information and updates, please refer to the [GitHub repository](https://github.com/DarioDiPalma-DDP/Tesina_2017).
