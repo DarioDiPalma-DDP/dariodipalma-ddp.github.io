@@ -1,80 +1,70 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Point-of-Interest Recommendation via Graph Neural Networks
+description: A Master's thesis project focusing on developing a recommender system using Graph Neural Networks on heterogeneous graphs.
+img: assets/img/POI_GNN_Pipeline.png
 importance: 3
-category: fun
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+# Point-of-Interest Recommendation via Graph Neural Networks
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/POI_GNN_Pipeline.png" title="POI Recommendation Pipeline" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
+<div class="caption">
+  The pipeline illustrating the process of recommending points of interest using Graph Neural Networks on heterogeneous graphs.
+</div>
 
-{% endraw %}
+## Project Overview
+
+This project presents the outcomes of a Master's thesis and internship conducted at Universidad Autónoma de Madrid. The primary objective was to develop a recommender system utilizing Graph Neural Networks (GNNs) applied to heterogeneous graphs, specifically targeting Point-of-Interest (POI) recommendations.
+
+## Features
+
+- **Graph Neural Network Implementation**: Developed models employing GNNs to capture complex relationships within heterogeneous graph structures.
+- **POI Recommendation**: Focused on recommending locations of interest to users based on their preferences and behaviors.
+- **Data Analysis**: Conducted comprehensive analyses on datasets, including the Yelp dataset, to extract meaningful insights.
+- **Model Evaluation**: Implemented both classification and regression models to evaluate the performance of the recommender system.
+
+## Usage
+
+To explore and utilize the project:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/DarioDiPalma-DDP/Point-Of-Interest_recommendation-through-GNNs-on-heterogeneous-graphs.git
+   ```
+2. **Set Up the Environment**:
+   Ensure Python 3.8 or later is installed. Create a virtual environment and install the necessary dependencies:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   pip install --upgrade pip
+   pip install -r requirements.txt
+   ```
+3. **Explore Notebooks**:
+   The repository includes several Jupyter notebooks:
+   - `Model_V2_Classification.ipynb`: Contains the classification model implementation.
+   - `Model_V2_Regression.ipynb`: Contains the regression model implementation.
+   - `Yelp Data Analysis.ipynb`: Provides data analysis on the Yelp dataset.
+   
+   Open these notebooks using Jupyter to review the code and results.
+
+## Dependencies
+
+- **Python**: Version 3.8 or later
+- **PyTorch**: For building and training neural network models
+- **PyTorch Geometric**: Extension library for GNNs
+- **Pandas**: Data manipulation and analysis
+- **NumPy**: Numerical computing
+- **Jupyter Notebook**: For interactive code execution and visualization
+
+## Links
+
+- [GitHub Repository](https://github.com/DarioDiPalma-DDP/Point-Of-Interest_recommendation-through-GNNs-on-heterogeneous-graphs)
+- [Universidad Autónoma de Madrid](https://www.uam.es/)
+
+For detailed information and updates, please refer to the [GitHub repository](https://github.com/DarioDiPalma-DDP/Point-Of-Interest_recommendation-through-GNNs-on-heterogeneous-graphs).
