@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-09-14 16:11:00-0400
+date: 2025-06-24 16:11:00-0400
 inline: true
 related_posts: false
 ---
 
-Thrilled to announce that two of our papers have been accepted to [RecSys 2023](https://dl.acm.org/profile/99661010378/publications?Role=author&startPage=&LimitedContentGroupKey=10.1145%2F3604915)! 🎉
+[Content-Based or Collaborative? Insights from Inter-List Similarity Analysis of ChatGPT Recommendations](https://dl.acm.org/doi/full/10.1145/3708319.3733680) was a 🎖️ Candidate for Best LBR 🎖️ at [UMAP 2025](https://www.um.org/umap2025/)
