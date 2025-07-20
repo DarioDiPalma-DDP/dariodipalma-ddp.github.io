@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Thrilled to share that two of my works have been accepted at the ACL 2025 Main Conference! 🎉 🚀
+Thrilled to share that two of my works have been accepted at the [ACL 2025](https://2025.aclweb.org/) Main Conference! 🎉 🚀
