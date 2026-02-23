@@ -1,9 +1,32 @@
 "Preprint":
-  color: "b9bbbe"
+  color: "#606B70"
 
 "RecSys":
   url: https://recsys.acm.org/
   color: "#0044d0"
 
 "IIR":
-  color: "#009f36"
+  color: "#186CA3"
+
+"ACL":
+  url: https://aclanthology.org/venues/acl/
+  color: "#ED1C24"
+
+"SIGIR":
+  url: https://dl.acm.org/conference/ir
+  color: "#8D1313"
+
+"UMAP":
+  url: https://dl.acm.org/conference/umap
+  color: "#0177C2"
+
+"Book Chapter":
+  color: "#C32C72"
+
+"GENNEXT@SIGIR":
+  url: https://sigirgennext.github.io/GENNEXT-SIGIR-25/
+  color: "#186CA3"
+
+"SmaLLEXT@CIKM"
+  url: https://sites.google.com/view/smallext
+  color: "#186CA3"
