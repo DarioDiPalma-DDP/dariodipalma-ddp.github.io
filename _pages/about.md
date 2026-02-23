@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: [Email](mailto:dario.dipalma@outlook.it) / [CV](#)  / [Scholar](https://scholar.google.com/citations?user=XIw0UnUAAAAJ)  /  [Linkedin](https://www.linkedin.com/in/dariodipalma/)  /  [Github](https://github.com/DarioDiPalma-DDP)
+subtitle: /
 
 profile:
   align: right
@@ -13,6 +13,8 @@ news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
+
+[Email](mailto:dario.dipalma@outlook.it) / [CV](https://dariodipalma-ddp.github.io/assets/pdf/DARIO_DI_PALMA_CV_2026.pdf) / [Scholar](https://scholar.google.com/citations?user=XIw0UnUAAAAJ) / [Linkedin](https://www.linkedin.com/in/dariodipalma/) / [Github](https://github.com/DarioDiPalma-DDP)
 
 Hi, I’m Dario Di Palma, a Ph.D. in Artificial Intelligence specializing in Large Language Models and Recommender Systems.
 
