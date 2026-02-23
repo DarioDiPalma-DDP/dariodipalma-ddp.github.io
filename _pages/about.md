@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: /
+subtitle: root@dario:~$
 
 profile:
   align: right
